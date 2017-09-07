@@ -5,7 +5,7 @@
 //  Created by Jarrod Parkes on 2/11/15.
 //  Copyright (c) 2015 Jarrod Parkes. All rights reserved.
 //
-
+//  Modified by Nicholas Sutanto
 // MARK: - TMDBClient (Constants)
 
 extension TMDBClient {
@@ -14,7 +14,7 @@ extension TMDBClient {
     struct Constants {
         
         // MARK: API Key
-        static let ApiKey = "YOUR_API_KEY_HERE"
+        static let ApiKey = "9bb95d3d5e8e658e1a25ef4a12f3a088"
         
         // MARK: URLs
         static let ApiScheme = "https"

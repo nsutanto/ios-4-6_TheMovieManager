@@ -5,6 +5,7 @@
 //  Created by Jarrod Parkes on 2/11/15.
 //  Copyright (c) 2015 Jarrod Parkes. All rights reserved.
 //
+//  Modified by Nicholas Sutanto
 
 import Foundation
 
