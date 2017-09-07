@@ -15,7 +15,7 @@ extension TMDBClient {
         
         // MARK: API Key
         static let ApiKey = "YOUR_API_KEY_HERE"
-                        
+        
         // MARK: URLs
         static let ApiScheme = "https"
         static let ApiHost = "api.themoviedb.org"

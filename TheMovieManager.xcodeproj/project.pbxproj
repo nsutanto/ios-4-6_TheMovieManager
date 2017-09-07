@@ -23,7 +23,7 @@
 		A9855BDE1BEC4DEB00000031 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9855BDA1BEC4DEB00000031 /* MovieDetailViewController.swift */; };
 		A9855BDF1BEC4DEB00000031 /* MoviePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9855BDB1BEC4DEB00000031 /* MoviePickerViewController.swift */; };
 		A9855BE01BEC4DEB00000031 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9855BDC1BEC4DEB00000031 /* WatchlistViewController.swift */; };
-		A9FA13531D1AB73A00B5F46E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FA13511D1AB73A00B5F46E /* LaunchScreen.xib */; };
+		A9FA13561D1AB75100B5F46E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FA13541D1AB75100B5F46E /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		A9855BDA1BEC4DEB00000031 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		A9855BDB1BEC4DEB00000031 /* MoviePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePickerViewController.swift; sourceTree = "<group>"; };
 		A9855BDC1BEC4DEB00000031 /* WatchlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
-		A9FA13521D1AB73A00B5F46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9FA13551D1AB75100B5F46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		A9855BBE1BEC3EE300000031 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				A9FA13511D1AB73A00B5F46E /* LaunchScreen.xib */,
+				A9FA13541D1AB75100B5F46E /* LaunchScreen.xib */,
 				A9855BB31BEC3EDB00000031 /* Assets.xcassets */,
 				A9855BB01BEC3EDB00000031 /* Main.storyboard */,
 			);
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9855BB41BEC3EDB00000031 /* Assets.xcassets in Resources */,
-				A9FA13531D1AB73A00B5F46E /* LaunchScreen.xib in Resources */,
+				A9FA13561D1AB75100B5F46E /* LaunchScreen.xib in Resources */,
 				A9855BB21BEC3EDB00000031 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,10 +256,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A9FA13511D1AB73A00B5F46E /* LaunchScreen.xib */ = {
+		A9FA13541D1AB75100B5F46E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A9FA13521D1AB73A00B5F46E /* Base */,
+				A9FA13551D1AB75100B5F46E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -349,6 +349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -374,7 +375,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.TheMovieManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
